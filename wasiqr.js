@@ -59,24 +59,22 @@ router.get('/', async (req, res) => {
 				   let session = await Qr_Code_By_Wasi_Tech.sendMessage(Qr_Code_By_Wasi_Tech.user.id, { text: '' + b64data });
 	
 				   let WASI_MD_TEXT = `
-*_Session Connected By Wasi Tech_*
-*_Made With 🤍_*
-______________________________________
+*_Pair Code Connected by TIZZY-MD✅*
+*_Made With Mr Tizzy🤍_*
+*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
 ╔════◇
-║ *『AMAZING YOU'VE CHOSEN WASI MD』*
+║ *『 WOW YOU'VE CHOSEN TIZZY MD 』*
 ║ _You Have Completed the First Step to Deploy a Whatsapp Bot._
 ╚════════════════════════╝
 ╔═════◇
-║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
-║❒ *Ytube:* _youtube.com/@wasitech1
-║❒ *Owner:* _https://wa.me/message/THZ3I25BYZM2E1_
-║❒ *Repo:* _https://github.com/wasixd/WASI-MD_
-║❒ *WaGroup:* _https://chat.whatsapp.com/FF6YuOZTAVB6Lu65cnY5BN_
-║❒ *WaChannel:* _https://whatsapp.com/channel/0029VaDK8ZUDjiOhwFS1cP2j_
-║❒ *Plugins:* _https://github.com/Itxxwasi 
+║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
+║👻 *Ytube:* _https://www.youtube.com/@MrTizzy
+║👻 *Owner:* _https://wa.me/94785153782_
+║👻 *Repo:* _https://github.com/Tizzy-Official
+║👻 *WaChannel:* _https://whatsapp.com/channel/0029VauNPTV2phHJ5n3bzC1N
 ╚════════════════════════╝
 _____________________________________
-	
+
 _Don't Forget To Give Star To My Repo_`
 	 await Qr_Code_By_Wasi_Tech.sendMessage(Qr_Code_By_Wasi_Tech.user.id,{text:WASI_MD_TEXT},{quoted:session})
 
